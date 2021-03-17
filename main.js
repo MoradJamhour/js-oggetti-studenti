@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
   $("#add").click(function() {
-    insertStudent()
+    imput()
     cycle()
   });
 });
 
 var students = []
 
-function insertStudent() {
+function imput() {
   var name = $("#name").val()
   var lastname = $("#lastname").val()
   var age = $("#age").val()
